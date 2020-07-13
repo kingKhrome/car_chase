@@ -1,17 +1,23 @@
 
-let c 
-let color 
-setup() {
-	createCanvas(500,500)
-	colorMode(HSB,360,100,100)
-	c = 0
-	color = (c,100,100)
-	background(color)
-}
+class Car {
+    constructor() {
+    	this.x_pos = null
+    	this.y_pos = null
+    	this.x_vel = null
+    	this.y_vel = null
+    	this.x_acc = null
+    	this.y_acc = null
 
-draw() {
-	if (c > 360) c=0
-	c++
-	color = (c,100,100)
-	background(color)
+    }
+
+    collisionCheck() {
+
+    }
+
+    movement() {
+    	
+    }
+
+
+  
 }
