@@ -1,0 +1,19 @@
+* {
+    font-family: "Arial Narrow", Arial, Verdana, "sans-serif";
+    align: center;
+    margin-left: 2em;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 2000px;
+}
+
+body {
+	background-color: "white";
+}
+
+h1 {
+  font-size: 20pt;
+  margin-left: 9%;
+}
